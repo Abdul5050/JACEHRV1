@@ -1,0 +1,339 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin: 0; padding:0;}
+body {
+	font-family: 'raleway';
+	background:url(../images/blue-christmas-snow-fall-animation.gif) center repeat;	
+}iframe{width:100%!important}
+.main_body{
+}
+img{max-width:100%}
+.clear {
+	clear:both;
+}
+#wrapper {
+	dborder: 1px solid #000;
+	width: 1200px;
+	height:auto;
+	margin:0 auto;
+	background: #ffffff;	
+}
+#header {
+	width:100%;
+	min-height:80px;
+	
+}
+#header_left {
+	float: left;
+	width: 200px;
+	height: auto;
+	/* dborder: 1px solid #c00; */
+	padding: 10px 0 7px 0px;
+}
+#header_right {
+	float:right;
+	width: 320px;
+	height:auto;
+	dborder: 1px solid #c00;
+	padding: 25px 20px 0 0px;
+}
+#socMedia-left {
+	float:left;
+	padding: 20px 0 0 0px;
+	margin-left: 20px;
+	font-style:italic;
+	text-shadow: 1px 1px #fff;
+	color: #333;
+}
+#socMedia-right {
+	float:right;
+}
+.SocImg {
+	float:left;
+	margin-left:2px;
+}
+
+#menu {
+	/* border: 5px solid #c00; */
+	/* width: 100%; */
+	/* height: auto; */
+	/* padding: 10px 0 10px 20px; */
+	font-size: 18px;
+	/* padding: 10px; */
+}
+#sublink {
+	padding: 0px 15px;
+	border-left: 1px solid #ddd;
+	width:auto;
+	float:left;
+	margin-top:0px;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+#sublink:hover {
+	background: #b9bab9;
+	box-shadow:inset 0px 10px 12px #eee;
+}
+#sublink a {
+	color: #eee;
+	text-decoration:none;
+}
+#sublink a:hover {
+	text-decoration:none;
+	color:#fff;
+}
+/**** for the drop down menu starts here ****/
+#sublink li {
+	position: relative;
+}
+#sublink ul {
+	list-style:none;
+	padding: 0;
+	margin: 0;
+}
+#sublink ul li {
+	width: 80px;
+}
+#sublink li ul li {
+	float: none;
+	width: 160px;
+	text-align:left;
+	padding: 1px 20px 4px 20px;
+	border-top: 1px solid #eee;
+	border-top-left-radius: 20px;
+	height: 25px;
+	background: #442c95;
+	line-height: 30px;
+}
+#sublink li ul {
+	position: absolute;
+	top: 20px;
+	dleft: 0;
+	visibility: hidden;
+	z-index: 1000;
+}
+#sublink li:hover ul {
+	visibility: visible;
+}
+#sublink ul li ul li:hover {
+	dbackground-color: maroon;
+	background: #cbd2cb;
+}
+#sublink ul li ul li a {
+	color: #eee;
+}
+#sublink ul li ul li a:hover {
+	color: #000;
+}
+/**** the drop down ended here ****/
+.clear {clear:both;}
+
+#banner {
+	width: 100%;
+	/* border: 1px solid #c00; */
+	height: auto;
+	margin: -3px auto 0 auto;
+}
+#blackband {
+	position: relative;
+	width: 100%;
+	min-height: 80px;
+	margin: -80px 0 0 0;
+	z-index: 900;
+}
+
+.blackband {
+	width: 100%;
+	min-height: 80px;
+	dborder: 1px dashed #f00;
+	margin: auto;
+	background: rgb(0,0,0);
+	background: rgba(0,0,0, 0.66);
+}
+.blacktext {
+	float: left;
+	width: 100%;
+	height: initial;
+	/* padding-top: 16px; */
+	/* padding-bottom: 16px; */
+	/* overflow: hidden; */
+}
+.blacktext p {
+	color: #fff;
+	font-family: 'calibri';
+	font-size: 18px;
+	font-weight: bold;
+	padding: 0;
+	line-height: 25px;
+}
+.blackbutton{	float:right; width:100px; height:auto; dborder:1px dashed #f00; margin: 20px 20px 0 0px; padding:10px 0px 8px 25px; background:url(../images/button.png) no-repeat; font-family:'calibri';}
+.blackbutton h1{  font-weight:bolder; text-transform:uppercase; text-align:center; font-family:'calibri'; font-size:33px; } 
+.blackbutton a{ text-decoration:none; color:#fff!important;font-size:15px; font-weight:600; text-align:center; text-transform:uppercase;}
+.blackbutton a:hover{ color:#A35218;}
+.blackbutton span{ font-size:16px; font-weight:normal; }
+
+#content {
+	width: 100%;
+	min-height:300px;
+	dborder: 1px solid #000;	
+}
+#contents_in {
+	background-color:#FFF;
+	width: 100%;
+	margin: auto;
+	min-height: 300px;
+	border: 5px solid #ddd;
+	-webkit-box-shadow: 0px 0px 23px -5px rgba(153,153,153,0.83);
+	-moz-box-shadow: 0px 0px 23px -5px rgba(153,153,153,0.83);
+	box-shadow: 0px 0px 23px -5px rgba(153,153,153,0.83);	
+	padding: 20px 20px;
+}
+#contents_in_left {
+	width: 100%;
+	min-height: 300px;
+	/* dborder: 1px solid #ddd; */
+	padding: 10px 5px;
+}
+#contents_in_right {
+	width: 100%;
+	min-height: 300px;
+	border-left: 1px solid #ddd;
+	padding: 10px 5px;
+}
+#contents_in_leftD {
+	float:left;
+	width: 520px;
+	min-height: 300px;
+	dborder: 1px solid #ddd;
+	padding: 10px 5px;
+	border-right: 1px solid #ddd;
+}
+#contents_in_rightD {
+	float:right;
+	width: 300px;
+	min-height: 300px;
+	dborder-left: 1px solid #ddd;
+	padding: 10px 5px;
+}
+#TextD {
+	dborder: 1px solid #000;
+	margin: 20px 0 0 0;
+	padding-bottom: 10px;
+	border-bottom: 2px  dotted #ddd;
+}
+#TextD h4{
+	font-family:'calibri'; border-bottom: 5px solid #2a166c; width:220px; margin-top:16px; font-weight:bold;
+}
+#SubsHeading {
+	border-bottom: 8px solid #2a166c;	
+	border-bottom-right-radius: 10px;
+	font-size: 20px;
+	font-weight:bold;
+}
+#SubsHeading2 {
+	border-bottom: 4px solid #2a166c;	
+	border-bottom-right-radius: 10px;
+	font-size: 20px;
+	font-weight:bold;
+	width: 200px;
+}
+#SubsLinks {
+	margin: 20px 0 0 0;	
+}
+#SubsLinks p {
+	margin-top:10px;
+	color: #2a166c;
+	font-size: 19px;
+}
+#aClients {
+	color: #2a166c;
+	margin-top:10px;
+	margin-left: 30px;
+}
+#aClients2 {
+	color: #2a166c;
+	margin-top:10px;
+	margin-left: 0px;
+	font-size:16px;
+	line-height:24px;
+	padding: 0 20px 0 0;
+}
+#aClients3 {
+	color: #2a166c;
+	margin-top:5px;
+	margin-left: 30px;
+	line-height:23px;
+}
+
+#imag {
+ 	width: 150px;
+	height:150px;
+	float:left;
+	dborder: 1px solid #C7C7C7; 
+}
+#TheText {
+	min-height: 150px;
+	/* border: 1px solid #000; */
+	width: 500px;
+	float: right;
+}
+#TheTextD {
+	width: 520px;
+	min-height: 150px;
+	dborder: 1px solid #000;
+}
+#content img{border:none}
+
+.Pd1 {
+	float:left;
+	border-bottom: 4px solid #2a166c;
+	margin: 5px 0 0 0;
+}
+.Pd11 {
+	float:left;
+	border-bottom: 4px solid #2a166c;
+	margin: 5px 0 0 0;
+	width: 150px;
+}
+.Pd2 {
+	float:right;
+	margin: 5px 0 0 0;
+}
+.Pd2 a {
+	font-size: 16px;
+	background: #2a166c;
+	color: #fff;
+	padding: 5px 10px;
+	border: 2px outset #eee;	
+}
+.Pd2 a:hover {
+	background:	#4b3d7c;
+}
+.Pd3 {
+	margin-top:10px;
+	line-height:35px;
+	font-weight: 500;
+	font-size: 20px;
+}
+
+#contents2 {
+	width: 100%;
+	height:auto;
+	dborder: 1px solid #000;
+	background:#f4f2f3;	
+}
+#contents2_in {
+	width: 1200px;
+	margin: auto;
+	min-height: 130px;
+	dborder: 1px solid #ddd;
+	-dwebkit-box-shadow: 0px 0px 23px -5px rgba(153,153,153,0.83);
+	-dmoz-box-shadow: 0px 0px 23px -5px rgba(153,153,153,0.83);
+	dbox-shadow: 0px 0px 23px -5px rgba(153,153,153,0.83);
+	background: url(../images/fBG.png) no-repeat;
+	
+}
+#footer {
+	width:100%;
+	height:auto;
+}
